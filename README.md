@@ -8,14 +8,23 @@ OracleMigrate v1.0.0 (C) 2020-2021 by yanshoupeng
 
 Supported Options:
   -h [ --help ]         show help message
+  
   --source arg           source database information
+  
   --target arg          target database information
+  
   --tables arg          tables to migrate
+  
   --logfile arg         logfile name
+  
   --threads arg         number of threads(for pattition table)
+  
   --bindsize arg        number of row  for every load
+  
   --merge arg           merge partition table into non partition table ,default
                         false
+                        
   --buffersize arg      buffer size 
+  
 
 
